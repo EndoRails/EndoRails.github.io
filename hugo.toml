@@ -1,0 +1,4 @@
+baseURL = 'https://EndoRails.github.io/'
+languageCode = 'en-us'
+title = 'EndoRails'
+theme = 'hugo-theme-nostyleplease'
