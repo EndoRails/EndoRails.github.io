@@ -1,25 +1,38 @@
 [[entries]]
-title = "all posts"
+title = "越轨"
 
   [entries.post_list]
   limit = 5
+  section = "posts"
   show_more = true
   show_more_text = "See archive..."
   show_more_url = "posts"
 
-# [[entries]]
-# title = "posts by category"
+[[entries]]
+title = "鸣笛"
 
-#   [entries.post_list]
-#   section = "posts"
-#   show_more = true
-#   show_more_text = "See more posts..."
-#   show_more_url = "posts"
+  [entries.post_list]
+  limit = 5
+  section = "whistle"
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "whistle"
+
+[[entries]]
+title = "质料"
+
+  [entries.post_list]
+  limit = 5
+  section = "material"
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "material"
 
 [[entries]]
 title = "tags"
   [entries.all_tags]
   enable = true
+
 [[entries]]
 title = "rss"
 url = "index.xml"
